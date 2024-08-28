@@ -1,0 +1,6 @@
+@ReadITAPI_HostAddress = http://localhost:5274
+
+GET {{ReadITAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
