@@ -16,50 +16,50 @@ will use the corresponding method in the repository, for example the Get Categor
 
 API Endpoints:
 Books:
-/api/Books/Get
-/api/Books/Get{id}
-/api/Books/Put{id}
-/api/Books/Post
+/api/Books/Get, 
+/api/Books/Get{id}, 
+/api/Books/Put{id}, 
+/api/Books/Post, 
 /api/Books/Delete{id}
 
 
 Categories:
-/api/categories/Get
-/api/Books/Get{id}
-/api/Books/Put{id}
-/api/Books/Post
-/api/Books/Delete{id}
+/api/categories/Get, 
+/api/Books/Get{id}, 
+/api/Books/Put{id}, 
+/api/Books/Post, 
+/api/Books/Delete{id}, 
 /api/Books/BooksInsideOneCategory
 
 Orders:
-/api/Orders/Get
-/api/Orders/post
-/api/Orders/Get{id}
-/api/Orders/Put{id}
-/api/Orders/Delete{id}
-/api/Orders/OrderNow (post)
-/api/Orders/BuyNow (post)
+/api/Orders/Get, 
+/api/Orders/post, 
+/api/Orders/Get{id}, 
+/api/Orders/Put{id}, 
+/api/Orders/Delete{id}, 
+/api/Orders/OrderNow (post), 
+/api/Orders/BuyNow (post) 
 
 
 Publishers:
-/api/Publishers/Get
-/api/Publishers/post
-/api/Publishers/Get{id}
-/api/Publishers/Put{id}
+/api/Publishers/Get, 
+/api/Publishers/post, 
+/api/Publishers/Get{id}, 
+/api/Publishers/Put{id}, 
 /api/Publishers/Delete{id}
 
 
 Requstions:
-/api/Requstions/Get
-/api/Requstions/post
-/api/Requstions/Get{id}
-/api/Requstions/Put{id}
+/api/Requstions/Get, 
+/api/Requstions/post, 
+/api/Requstions/Get{id}, 
+/api/Requstions/Put{id}, 
 /api/Requstions/Delete{id}
 
 
 Sales:
-/api/Sales/Get
-/api/Sales/post
-/api/Sales/Get{id}
-/api/Sales/Put{id}
+/api/Sales/Get, 
+/api/Sales/post, 
+/api/Sales/Get{id}, 
+/api/Sales/Put{id}, 
 /api/Sales/Delete{id}
